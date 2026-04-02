@@ -1,0 +1,23 @@
+{
+  "skill_name": "system-paper-skill",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我在做 AI infra 方向调研，想查分布式训练、参数服务器、调度系统、资源隔离相关论文，帮我推荐最值得优先看的 system 方向会议和期刊，并附上查询链接。",
+      "expected_output": "返回分布式系统和系统方向高相关的 A/B 类 venue，带链接，优先 OSDI/SOSP/EuroSys/NSDI/SoCC/TPDS/TCC/JPDC 等。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "给我整理一份 network + systems 交叉方向的论文检索入口，我主要关心数据中心网络、拥塞控制、互联网测量和网络系统实现。",
+      "expected_output": "返回 NSDI/SIGCOMM/INFOCOM/CoNEXT/IMC/TON/TOIT/CN 等 venues，并说明分组。",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "我想把 system software、编译器、运行时和可靠性工程相关的会刊整理成 agent 可消费的 JSON 数据源，只保留 A/B 类并附链接。",
+      "expected_output": "输出 JSON 或等价结构化数据，包含 TOPLAS/PLDI/POPL/CGO/PACT/SOSP/OSDI/JSS/SPE/ISSRE 等。",
+      "files": []
+    }
+  ]
+}
