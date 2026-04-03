@@ -1,0 +1,10 @@
+[
+  {
+    "title": "MapReduce: Simplified Data Processing on Large Clusters",
+    "authors": ["Jeffrey Dean", "Sanjay Ghemawat"],
+    "year": 2004,
+    "venue": "OSDI",
+    "doi": "https://doi.org/10.1145/1327452.1327492",
+    "bibtex": "@inproceedings{dean2004mapreduce,\n  title={MapReduce: Simplified Data Processing on Large Clusters},\n  author={Dean, Jeffrey and Ghemawat, Sanjay},\n  year={2004},\n  booktitle={OSDI},\n  doi={10.1145/1327452.1327492}\n}"
+  }
+]

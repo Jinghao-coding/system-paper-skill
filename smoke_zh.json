@@ -1,0 +1,212 @@
+{
+  "topic": "分布式系统 容错 期刊 综述",
+  "language": "zh",
+  "selected_areas": [
+    "distributed-systems",
+    "cloud-systems"
+  ],
+  "preferred_type": "journal",
+  "search_phrases": [
+    "分布式系统 容错 期刊 综述",
+    "distributed systems",
+    "cluster scheduling",
+    "resource management",
+    "fault tolerance",
+    "cloud computing",
+    "cloud native systems",
+    "service infrastructure",
+    "resource scheduling"
+  ],
+  "venues": [
+    {
+      "type": "journal",
+      "ccf": "A",
+      "source_area": "system-core",
+      "area": "distributed-systems",
+      "short_name": "TPDS",
+      "full_name": "IEEE Transactions on Parallel and Distributed Systems",
+      "link": "http://dblp.uni-trier.de/db/journals/tpds/"
+    },
+    {
+      "type": "journal",
+      "ccf": "B",
+      "source_area": "system-core",
+      "area": "distributed-systems",
+      "short_name": "JPDC",
+      "full_name": "Journal of Parallel and Distributed Computing",
+      "link": "http://dblp.uni-trier.de/db/journals/jpdc/"
+    },
+    {
+      "type": "journal",
+      "ccf": "B",
+      "source_area": "system-core",
+      "area": "distributed-systems",
+      "short_name": "Parallel Computing",
+      "full_name": "Parallel Computing",
+      "link": "https://dblp.org/db/journals/pc/index.html"
+    }
+  ],
+  "grouped_venues": {
+    "distributed-systems": [
+      {
+        "type": "journal",
+        "ccf": "A",
+        "source_area": "system-core",
+        "area": "distributed-systems",
+        "short_name": "TPDS",
+        "full_name": "IEEE Transactions on Parallel and Distributed Systems",
+        "link": "http://dblp.uni-trier.de/db/journals/tpds/"
+      },
+      {
+        "type": "journal",
+        "ccf": "B",
+        "source_area": "system-core",
+        "area": "distributed-systems",
+        "short_name": "JPDC",
+        "full_name": "Journal of Parallel and Distributed Computing",
+        "link": "http://dblp.uni-trier.de/db/journals/jpdc/"
+      },
+      {
+        "type": "journal",
+        "ccf": "B",
+        "source_area": "system-core",
+        "area": "distributed-systems",
+        "short_name": "Parallel Computing",
+        "full_name": "Parallel Computing",
+        "link": "https://dblp.org/db/journals/pc/index.html"
+      }
+    ]
+  },
+  "query_urls": {
+    "dblp": "https://dblp.org/search?q=%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F+%E5%AE%B9%E9%94%99+%E6%9C%9F%E5%88%8A+%E7%BB%BC%E8%BF%B0",
+    "google_scholar": "https://scholar.google.com/scholar?q=%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F+%E5%AE%B9%E9%94%99+%E6%9C%9F%E5%88%8A+%E7%BB%BC%E8%BF%B0",
+    "semantic_scholar": "https://www.semanticscholar.org/search?q=%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F+%E5%AE%B9%E9%94%99+%E6%9C%9F%E5%88%8A+%E7%BB%BC%E8%BF%B0",
+    "openalex": "https://openalex.org/works?search=%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F+%E5%AE%B9%E9%94%99+%E6%9C%9F%E5%88%8A+%E7%BB%BC%E8%BF%B0"
+  },
+  "per_venue_queries": [
+    {
+      "short_name": "TPDS",
+      "full_name": "IEEE Transactions on Parallel and Distributed Systems",
+      "type": "journal",
+      "ccf": "A",
+      "area": "distributed-systems",
+      "venue_link": "http://dblp.uni-trier.de/db/journals/tpds/",
+      "dblp_search_url": "https://dblp.org/search?q=%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F+%E5%AE%B9%E9%94%99+%E6%9C%9F%E5%88%8A+%E7%BB%BC%E8%BF%B0+TPDS",
+      "google_scholar_query": "分布式系统 容错 期刊 综述 TPDS",
+      "google_scholar_url": "https://scholar.google.com/scholar?q=%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F+%E5%AE%B9%E9%94%99+%E6%9C%9F%E5%88%8A+%E7%BB%BC%E8%BF%B0+TPDS",
+      "semantic_scholar_url": "https://www.semanticscholar.org/search?q=%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F+%E5%AE%B9%E9%94%99+%E6%9C%9F%E5%88%8A+%E7%BB%BC%E8%BF%B0+IEEE+Transactions+on+Parallel+and+Distributed+Systems",
+      "openalex_url": "https://openalex.org/works?search=%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F+%E5%AE%B9%E9%94%99+%E6%9C%9F%E5%88%8A+%E7%BB%BC%E8%BF%B0+IEEE+Transactions+on+Parallel+and+Distributed+Systems"
+    },
+    {
+      "short_name": "JPDC",
+      "full_name": "Journal of Parallel and Distributed Computing",
+      "type": "journal",
+      "ccf": "B",
+      "area": "distributed-systems",
+      "venue_link": "http://dblp.uni-trier.de/db/journals/jpdc/",
+      "dblp_search_url": "https://dblp.org/search?q=%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F+%E5%AE%B9%E9%94%99+%E6%9C%9F%E5%88%8A+%E7%BB%BC%E8%BF%B0+JPDC",
+      "google_scholar_query": "分布式系统 容错 期刊 综述 JPDC",
+      "google_scholar_url": "https://scholar.google.com/scholar?q=%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F+%E5%AE%B9%E9%94%99+%E6%9C%9F%E5%88%8A+%E7%BB%BC%E8%BF%B0+JPDC",
+      "semantic_scholar_url": "https://www.semanticscholar.org/search?q=%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F+%E5%AE%B9%E9%94%99+%E6%9C%9F%E5%88%8A+%E7%BB%BC%E8%BF%B0+Journal+of+Parallel+and+Distributed+Computing",
+      "openalex_url": "https://openalex.org/works?search=%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F+%E5%AE%B9%E9%94%99+%E6%9C%9F%E5%88%8A+%E7%BB%BC%E8%BF%B0+Journal+of+Parallel+and+Distributed+Computing"
+    },
+    {
+      "short_name": "Parallel Computing",
+      "full_name": "Parallel Computing",
+      "type": "journal",
+      "ccf": "B",
+      "area": "distributed-systems",
+      "venue_link": "https://dblp.org/db/journals/pc/index.html",
+      "dblp_search_url": "https://dblp.org/search?q=%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F+%E5%AE%B9%E9%94%99+%E6%9C%9F%E5%88%8A+%E7%BB%BC%E8%BF%B0+Parallel+Computing",
+      "google_scholar_query": "分布式系统 容错 期刊 综述 Parallel Computing",
+      "google_scholar_url": "https://scholar.google.com/scholar?q=%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F+%E5%AE%B9%E9%94%99+%E6%9C%9F%E5%88%8A+%E7%BB%BC%E8%BF%B0+Parallel+Computing",
+      "semantic_scholar_url": "https://www.semanticscholar.org/search?q=%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F+%E5%AE%B9%E9%94%99+%E6%9C%9F%E5%88%8A+%E7%BB%BC%E8%BF%B0+Parallel+Computing",
+      "openalex_url": "https://openalex.org/works?search=%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F+%E5%AE%B9%E9%94%99+%E6%9C%9F%E5%88%8A+%E7%BB%BC%E8%BF%B0+Parallel+Computing"
+    }
+  ],
+  "papers": [
+    {
+      "title": "Parallel Computing: Technology Trends, Proceedings of the International Conference on Parallel Computing, PARCO 2019, Prague, Czech Republic, September 10-13, 2019",
+      "authors": [
+        {
+          "@pid": "f/IanTFoster",
+          "text": "Ian T. Foster"
+        },
+        {
+          "@pid": "j/GerhardRJoubert",
+          "text": "Gerhard R. Joubert"
+        },
+        {
+          "@pid": "k/LudekKucera",
+          "text": "Ludek Kucera"
+        },
+        {
+          "@pid": "66/4013",
+          "text": "Wolfgang E. Nagel"
+        },
+        {
+          "@pid": "25/6656",
+          "text": "Frans J. Peters"
+        }
+      ],
+      "year": 2020,
+      "venue": [
+        "PARCO",
+        "Advances in Parallel Computing"
+      ],
+      "url": "https://dblp.org/rec/conf/parco/2019",
+      "doi": "https://doi.org/10.3233/apc36",
+      "abstract": "",
+      "citation_count": null,
+      "source": "dblp",
+      "target_venue": "Parallel Computing",
+      "target_venue_link": "https://dblp.org/db/journals/pc/index.html",
+      "relevance": {
+        "score": 11,
+        "topic_overlap": [],
+        "venue_score": 8,
+        "source_bonus": 2,
+        "recency_bonus": 1,
+        "citation_bonus": 0
+      },
+      "citation": "{'@pid': 'f/IanTFoster', 'text': 'Ian T. Foster'}, {'@pid': 'j/GerhardRJoubert', 'text': 'Gerhard R. Joubert'}, {'@pid': 'k/LudekKucera', 'text': 'Ludek Kucera'}, {'@pid': '66/4013', 'text': 'Wolfgang E. Nagel'}, and {'@pid': '25/6656', 'text': 'Frans J. Peters'}, \"Parallel Computing: Technology Trends, Proceedings of the International Conference on Parallel Computing, PARCO 2019, Prague, Czech Republic, September 10-13, 2019,\" ['PARCO', 'Advances in Parallel Computing'], 2020. https://doi.org/10.3233/apc36",
+      "bibtex": "@book{2020, title={Parallel Computing: Technology Trends}, ISBN={9781643680712}, ISSN={1879-808X}, url={http://dx.doi.org/10.3233/apc36}, DOI={10.3233/apc36}, journal={Advances in Parallel Computing}, publisher={IOS Press}, year={2020}, month=mar }",
+      "bibtex_source": "doi/crossref"
+    },
+    {
+      "title": "分布式光伏发电系统电气设计",
+      "authors": [
+        "王鹏飞",
+        "王鹏飞"
+      ],
+      "year": 2021,
+      "venue": "工程管理与技术探讨",
+      "url": "https://doi.org/10.37155/2717-5189-0306-16",
+      "doi": "https://doi.org/10.37155/2717-5189-0306-16",
+      "abstract": "",
+      "citation_count": 4,
+      "source": "crossref",
+      "target_venue": "TPDS",
+      "target_venue_link": "http://dblp.uni-trier.de/db/journals/tpds/",
+      "relevance": {
+        "score": 2,
+        "topic_overlap": [],
+        "venue_score": 0,
+        "source_bonus": 0,
+        "recency_bonus": 1,
+        "citation_bonus": 1
+      },
+      "citation": "王鹏飞 and 王鹏飞, \"分布式光伏发电系统电气设计,\" 工程管理与技术探讨, 2021. https://doi.org/10.37155/2717-5189-0306-16",
+      "bibtex": "@article{__2021, title={分布式光伏发电系统电气设计}, volume={3}, ISSN={2717-5189}, url={http://dx.doi.org/10.37155/2717-5189-0306-16}, DOI={10.37155/2717-5189-0306-16}, number={5}, journal={工程管理与技术探讨}, publisher={Omniscient Pte Ltd}, author={王鹏飞 and 王鹏飞}, year={2021}, pages={47–49} }",
+      "bibtex_source": "doi/crossref"
+    }
+  ],
+  "citation_style": "ieee",
+  "workflow": [
+    "build_query_config",
+    "build_query_urls",
+    "fetch_papers (DBLP > OpenAlex > Crossref > Semantic Scholar)",
+    "format_citation",
+    "get_bibtex"
+  ]
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Attention Is All You Need",
+    "authors": ["Ashish Vaswani", "Noam Shazeer"],
+    "year": 2017,
+    "venue": "NeurIPS",
+    "doi": "https://doi.org/10.48550/arXiv.1706.03762",
+    "bibtex": "@inproceedings{vaswani2017attention,\n  title={Attention Is All You Need},\n  author={Vaswani, Ashish and Shazeer, Noam},\n  year={2017},\n  booktitle={Advances in Neural Information Processing Systems},\n  doi={10.48550/arXiv.1706.03762}\n}"
+  },
+  {
+    "title": "A Totally Fabricated Systems Paper About Unicorn Scheduling",
+    "authors": ["Jane Doe"],
+    "year": 2024,
+    "venue": "OSDI",
+    "bibtex": "@inproceedings{doe2024unicorn,\n  title={A Totally Fabricated Systems Paper About Unicorn Scheduling},\n  author={Doe, Jane},\n  year={2024},\n  booktitle={OSDI}\n}"
+  }
+]

@@ -1,0 +1,240 @@
+{
+  "topic": "AI infra serving observability",
+  "language": "en",
+  "selected_areas": [
+    "cloud-systems",
+    "distributed-systems",
+    "performance-reliability",
+    "software-engineering-for-systems",
+    "systems-software"
+  ],
+  "preferred_type": "balanced",
+  "search_phrases": [
+    "AI infra serving observability",
+    "ml systems",
+    "distributed training",
+    "serving systems",
+    "monitoring",
+    "tracing",
+    "telemetry",
+    "cloud computing",
+    "cloud native systems",
+    "service infrastructure",
+    "resource scheduling",
+    "distributed systems"
+  ],
+  "venues": [
+    {
+      "type": "journal",
+      "ccf": "A",
+      "source_area": "system-core",
+      "area": "systems-software",
+      "short_name": "TOCS",
+      "full_name": "ACM Transactions on Computer Systems",
+      "link": "http://dblp.uni-trier.de/db/journals/tocs/"
+    },
+    {
+      "type": "journal",
+      "ccf": "A",
+      "source_area": "system-core",
+      "area": "distributed-systems",
+      "short_name": "TPDS",
+      "full_name": "IEEE Transactions on Parallel and Distributed Systems",
+      "link": "http://dblp.uni-trier.de/db/journals/tpds/"
+    },
+    {
+      "type": "conference",
+      "ccf": "A",
+      "source_area": "system-core",
+      "area": "distributed-systems",
+      "short_name": "PPoPP",
+      "full_name": "ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming",
+      "link": "http://dblp.uni-trier.de/db/conf/ppopp/"
+    }
+  ],
+  "grouped_venues": {
+    "systems-software": [
+      {
+        "type": "journal",
+        "ccf": "A",
+        "source_area": "system-core",
+        "area": "systems-software",
+        "short_name": "TOCS",
+        "full_name": "ACM Transactions on Computer Systems",
+        "link": "http://dblp.uni-trier.de/db/journals/tocs/"
+      }
+    ],
+    "distributed-systems": [
+      {
+        "type": "journal",
+        "ccf": "A",
+        "source_area": "system-core",
+        "area": "distributed-systems",
+        "short_name": "TPDS",
+        "full_name": "IEEE Transactions on Parallel and Distributed Systems",
+        "link": "http://dblp.uni-trier.de/db/journals/tpds/"
+      },
+      {
+        "type": "conference",
+        "ccf": "A",
+        "source_area": "system-core",
+        "area": "distributed-systems",
+        "short_name": "PPoPP",
+        "full_name": "ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming",
+        "link": "http://dblp.uni-trier.de/db/conf/ppopp/"
+      }
+    ]
+  },
+  "query_urls": {
+    "dblp": "https://dblp.org/search?q=AI+infra+serving+observability",
+    "google_scholar": "https://scholar.google.com/scholar?q=AI+infra+serving+observability",
+    "semantic_scholar": "https://www.semanticscholar.org/search?q=AI+infra+serving+observability",
+    "openalex": "https://openalex.org/works?search=AI+infra+serving+observability"
+  },
+  "per_venue_queries": [
+    {
+      "short_name": "TOCS",
+      "full_name": "ACM Transactions on Computer Systems",
+      "type": "journal",
+      "ccf": "A",
+      "area": "systems-software",
+      "venue_link": "http://dblp.uni-trier.de/db/journals/tocs/",
+      "dblp_search_url": "https://dblp.org/search?q=AI+infra+serving+observability+TOCS",
+      "google_scholar_query": "AI infra serving observability TOCS",
+      "google_scholar_url": "https://scholar.google.com/scholar?q=AI+infra+serving+observability+TOCS",
+      "semantic_scholar_url": "https://www.semanticscholar.org/search?q=AI+infra+serving+observability+ACM+Transactions+on+Computer+Systems",
+      "openalex_url": "https://openalex.org/works?search=AI+infra+serving+observability+ACM+Transactions+on+Computer+Systems"
+    },
+    {
+      "short_name": "TPDS",
+      "full_name": "IEEE Transactions on Parallel and Distributed Systems",
+      "type": "journal",
+      "ccf": "A",
+      "area": "distributed-systems",
+      "venue_link": "http://dblp.uni-trier.de/db/journals/tpds/",
+      "dblp_search_url": "https://dblp.org/search?q=AI+infra+serving+observability+TPDS",
+      "google_scholar_query": "AI infra serving observability TPDS",
+      "google_scholar_url": "https://scholar.google.com/scholar?q=AI+infra+serving+observability+TPDS",
+      "semantic_scholar_url": "https://www.semanticscholar.org/search?q=AI+infra+serving+observability+IEEE+Transactions+on+Parallel+and+Distributed+Systems",
+      "openalex_url": "https://openalex.org/works?search=AI+infra+serving+observability+IEEE+Transactions+on+Parallel+and+Distributed+Systems"
+    },
+    {
+      "short_name": "PPoPP",
+      "full_name": "ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming",
+      "type": "conference",
+      "ccf": "A",
+      "area": "distributed-systems",
+      "venue_link": "http://dblp.uni-trier.de/db/conf/ppopp/",
+      "dblp_search_url": "https://dblp.org/search?q=AI+infra+serving+observability+PPoPP",
+      "google_scholar_query": "AI infra serving observability PPoPP",
+      "google_scholar_url": "https://scholar.google.com/scholar?q=AI+infra+serving+observability+PPoPP",
+      "semantic_scholar_url": "https://www.semanticscholar.org/search?q=AI+infra+serving+observability+ACM+SIGPLAN+Symposium+on+Principles+%26+Practice+of+Parallel+Programming",
+      "openalex_url": "https://openalex.org/works?search=AI+infra+serving+observability+ACM+SIGPLAN+Symposium+on+Principles+%26+Practice+of+Parallel+Programming"
+    }
+  ],
+  "papers": [
+    {
+      "title": "Harnessing AI for Enhanced Systems Observability",
+      "authors": [
+        "Siva Kumar Mamillapalli"
+      ],
+      "year": 2024,
+      "venue": "International Scientific Journal of Engineering and Management",
+      "url": "https://doi.org/10.55041/isjem01957",
+      "doi": "https://doi.org/10.55041/isjem01957",
+      "abstract": "<jats:p>The aim of this research is to critically examine and identify advanced artificial intelligence techniques that enhance\nsystems observability, addressing the critical issue of insufficient visibility into complex system behaviors, which\nsignificantly impedes effective decision-making and problem resolution. This exploration requires not only the\ncollection and analysis of diverse data sets—such as system performance metrics, event logs, and user interaction\npatterns—but also a thoughtful consideration of how these data points interact and influence each other. By\nemploying rigorous methodologies to train AI models, the research aspires to ensure that the developed models can\nnot only provide real-time insights but also deliver robust predictive analytics, ultimately allowing stakeholders to\nmake informed decisions based on a comprehensive understanding of system dynamics. By implementing AI,\norganizations can achieve more proactive and efficient system management, ensuring higher reliability, faster issue\nresolution, and improved overall performance. The adoption of AI in systems observability marks a significant\nadvancement in maintaining robust and resilient digital infrastructure, ultimately supporting more seamless and\ndependable user experiences.</jats:p>",
+      "citation_count": 1,
+      "source": "crossref",
+      "target_venue": "PPoPP",
+      "target_venue_link": "http://dblp.uni-trier.de/db/conf/ppopp/",
+      "relevance": {
+        "score": 23,
+        "topic_overlap": [
+          "ai",
+          "learning",
+          "llm",
+          "logging",
+          "machine",
+          "ml",
+          "monitoring",
+          "observability",
+          "telemetry",
+          "tracing"
+        ],
+        "venue_score": 0,
+        "source_bonus": 0,
+        "recency_bonus": 2,
+        "citation_bonus": 1
+      },
+      "citation": "Siva Kumar Mamillapalli, \"Harnessing AI for Enhanced Systems Observability,\" International Scientific Journal of Engineering and Management, 2024. https://doi.org/10.55041/isjem01957",
+      "bibtex": "@article{Mamillapalli_2024, title={Harnessing AI for Enhanced Systems Observability}, volume={03}, ISSN={2583-6129}, url={http://dx.doi.org/10.55041/isjem01957}, DOI={10.55041/isjem01957}, number={08}, journal={International Scientific Journal of Engineering and Management}, publisher={Edtech Publishers (OPC) Private Limited}, author={Mamillapalli, Siva Kumar}, year={2024}, month=aug, pages={1–5} }",
+      "bibtex_source": "doi/crossref"
+    },
+    {
+      "title": "Cloud-Native Computing: A Survey from the Perspective of Services",
+      "authors": [
+        "Shuiguang Deng",
+        "Hailiang Zhao",
+        "Binbin Huang",
+        "Cheng Zhang",
+        "Feiyi Chen",
+        "Yinuo Deng",
+        "Jianwei Yin",
+        "Schahram Dustdar",
+        "Albert Y. Zomaya"
+      ],
+      "year": 2023,
+      "venue": "TOCS",
+      "url": "http://dx.doi.org/10.36227/techrxiv.23500383.v1",
+      "doi": "https://doi.org/10.36227/techrxiv.23500383.v1",
+      "abstract": "&lt;p&gt;The development of cloud computing delivery models inspires the emergence of cloud-native computing. Cloud-native computing, as the most influential development principle for web applications, has already attracted increasingly more at- tention in both industry and academia. Despite the momentum in the cloud-native industrial community, a clear research roadmap on this topic is still missing. As a contribution to this knowledge, this paper surveys key issues during the life-cycle of cloud-native applications, from the perspective of services. Specifically, we elaborate the research domains by decoupling the life-cycle of cloud-native applications into four states: building, orchestration, operate, and maintenance. We also discuss the fundamental necessities and summarize the key performance metrics that play critical roles during the development and management of cloud-native applications. We highlight the key implications and limitations of existing works in each state. The challenges, future directions, and research opportunities are also discussed. &lt;/p&gt;",
+      "citation_count": 6,
+      "source": "openalex",
+      "target_venue": "TOCS",
+      "target_venue_link": "http://dblp.uni-trier.de/db/journals/tocs/",
+      "relevance": {
+        "score": 20,
+        "topic_overlap": [],
+        "venue_score": 16,
+        "source_bonus": 1,
+        "recency_bonus": 2,
+        "citation_bonus": 1
+      },
+      "citation": "Shuiguang Deng, Hailiang Zhao, Binbin Huang, Cheng Zhang, Feiyi Chen, Yinuo Deng, Jianwei Yin, Schahram Dustdar, and Albert Y. Zomaya, \"Cloud-Native Computing: A Survey from the Perspective of Services,\" TOCS, 2023. https://doi.org/10.36227/techrxiv.23500383.v1",
+      "bibtex": "@article{Deng_2023, title={Cloud-Native Computing: A Survey from the Perspective of Services}, url={http://dx.doi.org/10.36227/techrxiv.23500383.v1}, DOI={10.36227/techrxiv.23500383.v1}, publisher={Institute of Electrical and Electronics Engineers (IEEE)}, author={Deng, Shuiguang and Zhao, Hailiang and Huang, Binbin and Zhang, Cheng and Chen, Feiyi and Deng, Yinuo and Yin, Jianwei and Dustdar, Schahram and Zomaya, Albert Y.}, year={2023}, month=jun }",
+      "bibtex_source": "doi/crossref"
+    },
+    {
+      "title": "Proceedings of the Middleware for Autonomous AIoT Systems in the Computing Continuum",
+      "authors": [],
+      "year": 2025,
+      "venue": "TPDS",
+      "url": "https://doi.org/10.1145/3774901",
+      "doi": "https://doi.org/10.1145/3774901",
+      "abstract": "This paper introduces a specialized profiler for energy consumption prediction and proposes a Conceptual Green Orchestration Pipeline that utilizes the profiler as middleware.The system's architecture integrates a standard orchestrator (like Kubernetes) with a local ONNX model registry, targeting edge devices for deployment.Crucially, the profiler demonstrated strong performance, achieving 89% accuracy in selecting the optimal deployment device for resource-intensive models, a significant improvement over the 33.4% accuracy seen with random placement.",
+      "citation_count": 0,
+      "source": "openalex",
+      "target_venue": "TPDS",
+      "target_venue_link": "http://dblp.uni-trier.de/db/journals/tpds/",
+      "relevance": {
+        "score": 19,
+        "topic_overlap": [],
+        "venue_score": 16,
+        "source_bonus": 1,
+        "recency_bonus": 2,
+        "citation_bonus": 0
+      },
+      "citation": "\"Proceedings of the Middleware for Autonomous AIoT Systems in the Computing Continuum,\" TPDS, 2025. https://doi.org/10.1145/3774901",
+      "bibtex": "@inproceedings{2025, series={MAIoT ’25}, ISBN={9798400723049}, url={http://dx.doi.org/10.1145/3774901}, DOI={10.1145/3774901}, publisher={ACM}, year={2025}, month=dec, collection={MAIoT ’25} }",
+      "bibtex_source": "doi/crossref"
+    }
+  ],
+  "citation_style": "ieee",
+  "workflow": [
+    "build_query_config",
+    "build_query_urls",
+    "fetch_papers (DBLP > OpenAlex > Crossref > Semantic Scholar)",
+    "format_citation",
+    "get_bibtex"
+  ]
+}
