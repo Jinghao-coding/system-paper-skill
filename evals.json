@@ -4,19 +4,73 @@
     {
       "id": 1,
       "prompt": "我在做 AI infra 方向调研，想查分布式训练、参数服务器、调度系统、资源隔离相关论文，帮我推荐最值得优先看的 system 方向会议和期刊，并附上查询链接。",
-      "expected_output": "返回分布式系统和系统方向高相关的 A/B 类 venue，带链接，优先 OSDI/SOSP/EuroSys/NSDI/SoCC/TPDS/TCC/JPDC 等。",
+      "expected_output": "返回分布式系统和系统方向高相关的 A/B 类 venue，带链接，优先 OSDI、SOSP、EuroSys、NSDI、SoCC、TPDS、TCC、JPDC 等，并给出结构化检索入口。",
       "files": []
     },
     {
       "id": 2,
       "prompt": "给我整理一份 network + systems 交叉方向的论文检索入口，我主要关心数据中心网络、拥塞控制、互联网测量和网络系统实现。",
-      "expected_output": "返回 NSDI/SIGCOMM/INFOCOM/CoNEXT/IMC/TON/TOIT/CN 等 venues，并说明分组。",
+      "expected_output": "返回 NSDI、SIGCOMM、INFOCOM、CoNEXT、IMC、TON、TOIT、Computer Networks 等 venues，并说明分组与检索入口。",
       "files": []
     },
     {
       "id": 3,
       "prompt": "我想把 system software、编译器、运行时和可靠性工程相关的会刊整理成 agent 可消费的 JSON 数据源，只保留 A/B 类并附链接。",
-      "expected_output": "输出 JSON 或等价结构化数据，包含 TOPLAS/PLDI/POPL/CGO/PACT/SOSP/OSDI/JSS/SPE/ISSRE 等。",
+      "expected_output": "输出 JSON 或等价结构化数据，包含 TOPLAS、PLDI、POPL、CGO、PACT、SOSP、OSDI、JSS、SPE、ISSRE 等，并保持字段稳定。",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "我想做一篇 system reliability survey，优先帮我看期刊，不要会议。",
+      "expected_output": "优先返回 journal 类型 venue，并体现期刊偏好，例如 TSE、TOSEM、JPDC、TPDS、TON、Performance Evaluation 等。",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "帮我找 AI infra serving、inference、tail latency、observability 相关的 system 论文检索入口。",
+      "expected_output": "能够映射到 cloud-systems、distributed-systems、performance-reliability，并返回相关 A/B venue 与检索入口。",
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "只给我 system 顶会，围绕 container virtualization orchestration。",
+      "expected_output": "优先返回 conference 类型 venue，并体现 systems-software、cloud-systems、distributed-systems 的会议偏好。",
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "I need a journal-first reading list for distributed fault tolerance and reliability engineering in large-scale systems. Give me venues first, then retrieval entry points.",
+      "expected_output": "Bias toward journals, surface distributed-systems plus performance-reliability venues, and include actionable retrieval URLs instead of only free-form text.",
+      "files": []
+    },
+    {
+      "id": 8,
+      "prompt": "Please give me only top systems conferences for cloud native orchestration, container isolation, and Kubernetes runtime research, and format the result so another agent can consume it as JSON.",
+      "expected_output": "Bias toward conferences, emphasize OSDI/SOSP/EuroSys/ATC/SoCC/NSDI-like venues where relevant, and return stable agent-friendly structured data.",
+      "files": []
+    },
+    {
+      "id": 9,
+      "prompt": "I'm preparing an open-source literature workflow for ML systems. Recommend venues and search entry points for model serving, inference systems, multi-tenant scheduling, and observability. Keep the output reusable for README examples.",
+      "expected_output": "Cover AI infra / ML systems routing, include reusable retrieval workflow content, and produce output suitable for open-source-facing documentation examples.",
+      "files": []
+    },
+    {
+      "id": 10,
+      "prompt": "帮我给开源用户准备一组 system paper discovery 示例主题，要求同时覆盖中文和英文查询、conference/journal 偏好，以及 network systems 和 distributed systems。",
+      "expected_output": "给出适合公开文档或 eval 使用的双语示例主题，覆盖 venue preference 与跨子领域检索场景。",
+      "files": []
+    },
+    {
+      "id": 11,
+      "prompt": "请补充一个 LaTeX/BibTeX 引文真实性校验能力：我需要知道生成出来的 bib 条目对应的论文是否真实存在，优先用 DOI 校验，没 DOI 时再用 title 检索。",
+      "expected_output": "输出的工作流或结果中体现参考文献真实性校验，至少包含 exists、verification method、title/doi/year match 或等价字段。",
+      "files": []
+    },
+    {
+      "id": 12,
+      "prompt": "For LaTeX citation hygiene, verify that every generated BibTeX entry maps to a real paper. Use DOI first, then title-based metadata lookup, and report which references remain unverified.",
+      "expected_output": "The workflow should expose reference verification status for BibTeX entries, distinguish verified vs unverified references, and avoid silently treating all generated citations as valid.",
       "files": []
     }
   ]

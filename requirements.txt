@@ -1,0 +1,4 @@
+# Minimal dependency note for system-paper-skill
+# The toolkit primarily uses Python standard library plus HTTP access via requests.
+
+requests>=2.31.0
